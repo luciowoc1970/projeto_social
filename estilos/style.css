@@ -21,7 +21,7 @@ body {
 main {
     position: relative; 
     height: 100vh;
-    width: 200vh;
+    width: 200wh;
     
 }
 section#telefone{
@@ -39,4 +39,22 @@ iframe#tela {
     left: 21px;
     width: 267px;
     height: 470px;
+}
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 5px 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.447);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.787);
+    transform: translate(-4px, -4px);
+    box-shadow: 5px, 5px, 10px rgba(0, 0, 0, 0.617);
+    transition: transform .3s;      
 }
